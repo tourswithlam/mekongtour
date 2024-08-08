@@ -9878,16 +9878,19 @@ h6,
     height: 30%;
     width: 30%;
   }
-  @media (max-width: 767px) {
+  .lamlogo-footer{
+    height: 50px;
+    width: 254px;
+  }
+  @media  (max-width: 767px) {
     .lamlogo {
       height: 80%;
       width: 80%;
     }
-  }
-
-  .lamlogo-footer{
-    height: 100px;
-    width: 100px;
+    .lamlogo-footer{
+      width: 218px;
+      height: 43px;
+    }
   }
   .row1{
     display: flex;
